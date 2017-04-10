@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "AOPOD Bilibili扩展",
+  "description": "",
+  "version": "1.0.0",
+
+  "content_scripts": [{
+    "css": ["default/default.css"],
+    "js": ["default/default.js"],
+    "matches": [
+      "http://*.bilibili.com/*",
+      "https://*.bilibili.com/*",
+      "http://*.bilibili.tv/*",
+      "https://*.bilibili.tv/*"
+    ]
+  }]
+}
