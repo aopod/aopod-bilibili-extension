@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "AOPOD Bilibili扩展",
-  "description": "",
+  "name": "Bilibili扩展(AOPOD)",
+  "description": "aopod.com",
   "version": "1.0.0",
 
   "content_scripts": [{
